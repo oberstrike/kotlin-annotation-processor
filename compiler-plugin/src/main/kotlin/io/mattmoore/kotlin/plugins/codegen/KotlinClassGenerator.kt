@@ -1,4 +1,4 @@
-package io.mattmoore.kotlin.annotation
+package io.mattmoore.kotlin.plugins.codegen
 
 /**
  * Custom Kotlin Class Builder which returns file content string

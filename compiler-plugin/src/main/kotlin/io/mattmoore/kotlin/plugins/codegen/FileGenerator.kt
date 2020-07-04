@@ -1,6 +1,7 @@
-package io.mattmoore.kotlin.annotation
+package io.mattmoore.kotlin.plugins.codegen
 
 import com.google.auto.service.AutoService
+import io.mattmoore.kotlin.plugins.annotations.GreetingGenerator
 import java.io.File
 import javax.annotation.processing.AbstractProcessor
 import javax.annotation.processing.Processor

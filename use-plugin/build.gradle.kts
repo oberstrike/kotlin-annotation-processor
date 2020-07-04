@@ -19,5 +19,5 @@ dependencies {
 }
 
 application {
-    mainClassName = "io.mattmoore.kotlin.annotation.example.AppKt"
+    mainClassName = "io.mattmoore.kotlin.plugins.annotations.example.AppKt"
 }

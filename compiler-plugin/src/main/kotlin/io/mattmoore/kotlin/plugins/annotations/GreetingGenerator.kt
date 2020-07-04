@@ -1,4 +1,4 @@
-package io.mattmoore.kotlin.annotation
+package io.mattmoore.kotlin.plugins.annotations
 
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.SOURCE)

@@ -1,7 +1,6 @@
-package io.mattmoore.kotlin.annotation
+package io.mattmoore.kotlin.plugins.annotations
 
 import kotlin.test.Test
-import kotlin.test.assertTrue
 
 class GreetingGeneratorTest {
     @Test fun testSomeLibraryMethod() {
