@@ -17,6 +17,7 @@ dependencies {
   implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
   implementation("com.google.auto.service:auto-service:1.0-rc4")
   kapt("com.google.auto.service:auto-service:1.0-rc4")
+  implementation("com.squareup:kotlinpoet:1.6.0")
   testImplementation("org.jetbrains.kotlin:kotlin-test")
   testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
