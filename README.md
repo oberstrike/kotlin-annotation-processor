@@ -19,4 +19,4 @@ Kapt stands for *Kotlin Annotation Processor Tool*. It allows for creating annot
 
 ## What's KotlinPoet?
 
-[KotlinPoet](https://square.github.io/kotlinpoet/) is the Kotlin equivalent of JavaPoet. In a nutshell, it lets you generate Kotlin code files.
+[KotlinPoet](https://square.github.io/kotlinpoet/) is the Kotlin equivalent of JavaPoet. In a nutshell, it lets you generate Kotlin source files.
