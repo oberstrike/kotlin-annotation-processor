@@ -14,8 +14,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
-    implementation("io.mattmoore.kotlin.annotation:annotation-processor:0.1.0-SNAPSHOT")
-    kapt("io.mattmoore.kotlin.annotation:annotation-processor:0.1.0-SNAPSHOT")
+    implementation(project(":compiler-plugin"))
+    kapt(project(":compiler-plugin"))
 }
 
 application {
