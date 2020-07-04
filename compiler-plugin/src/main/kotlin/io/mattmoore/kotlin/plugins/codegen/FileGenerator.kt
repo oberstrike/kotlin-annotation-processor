@@ -1,7 +1,7 @@
 package io.mattmoore.kotlin.plugins.codegen
 
 import com.google.auto.service.AutoService
-import io.mattmoore.kotlin.plugins.annotations.GreetingGenerator
+import io.mattmoore.kotlin.plugins.annotations.Greeter
 import java.io.File
 import javax.annotation.processing.AbstractProcessor
 import javax.annotation.processing.Processor
@@ -16,7 +16,7 @@ import javax.lang.model.element.TypeElement
 @SupportedOptions(FileGenerator.KAPT_KOTLIN_GENERATED_OPTION_NAME)
 class FileGenerator : AbstractProcessor() {
   override fun getSupportedAnnotationTypes(): MutableSet<String> {
-    return mutableSetOf(GreetingGenerator::class.java.name)
+    return mutableSetOf(Greeter::class.java.name)
   }
 
   override fun getSupportedSourceVersion(): SourceVersion {
@@ -24,7 +24,7 @@ class FileGenerator : AbstractProcessor() {
   }
 
   override fun process(set: MutableSet<out TypeElement>?, roundEnvironment: RoundEnvironment?): Boolean {
-    roundEnvironment?.getElementsAnnotatedWith(GreetingGenerator::class.java)
+    roundEnvironment?.getElementsAnnotatedWith(Greeter::class.java)
       ?.forEach {
         val className = it.simpleName.toString()
         val pack = processingEnv.elementUtils.getPackageOf(it).toString()

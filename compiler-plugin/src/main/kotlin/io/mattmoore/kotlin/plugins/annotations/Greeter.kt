@@ -4,4 +4,4 @@ package io.mattmoore.kotlin.plugins.annotations
 @Retention(AnnotationRetention.SOURCE)
 @MustBeDocumented
 
-annotation class GreetingGenerator
+annotation class Greeter

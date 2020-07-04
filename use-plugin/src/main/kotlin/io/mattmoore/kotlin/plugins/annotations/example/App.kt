@@ -1,8 +1,8 @@
 package io.mattmoore.kotlin.plugins.annotations.example
 
-import io.mattmoore.kotlin.plugins.annotations.GreetingGenerator
+import io.mattmoore.kotlin.plugins.annotations.Greeter
 
-@GreetingGenerator
+@Greeter
 class Greeter
 
 fun main(args: Array<String>) {
