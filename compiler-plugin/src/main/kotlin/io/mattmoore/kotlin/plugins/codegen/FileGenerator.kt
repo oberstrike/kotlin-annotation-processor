@@ -12,7 +12,7 @@ import javax.lang.model.SourceVersion
 import javax.lang.model.element.TypeElement
 
 @AutoService(Processor::class)
-@SupportedSourceVersion(SourceVersion.RELEASE_8) // to support Java 8
+@SupportedSourceVersion(SourceVersion.RELEASE_8)
 @SupportedOptions(FileGenerator.KAPT_KOTLIN_GENERATED_OPTION_NAME)
 class FileGenerator : AbstractProcessor() {
   override fun getSupportedAnnotationTypes(): MutableSet<String> {
