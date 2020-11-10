@@ -1,10 +1,15 @@
 package io.mattmoore.kotlin.plugins.annotations.example
 
-import io.mattmoore.kotlin.plugins.annotations.Greeter
+import io.mattmoore.kotlin.plugins.annotations.KotlinBuilder
+import kotlin.jvm.Throws
 
-@Greeter
-class Greeter
+@KotlinBuilder
+class Test{
 
-fun main(args: Array<String>) {
-  println(GeneratedGreeter().greeting())
+    @Throws(Exception::class)
+    fun x() {}
+}
+
+fun main() {
+
 }
